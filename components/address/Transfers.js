@@ -231,7 +231,7 @@ function createContent(transfers, isSender) {
                     </span>
                 </Link>
 
-                <Link href={"/address/" + tran.from}>
+                <Link href={"/address/" + toFrom}>
                     <span className="hover:text-sky-600 text-sky-500 underline transition duration-300 cursor-pointer">
                         {toFrom.slice(0, 5) + "..." + toFrom.slice(-3)}
                     </span>
